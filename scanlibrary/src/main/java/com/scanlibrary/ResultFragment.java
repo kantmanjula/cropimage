@@ -106,7 +106,7 @@ public class ResultFragment extends Fragment {
                             bitmap = original;
                         }
 
-                        data.putExtra(ScanConstants.SCANNED_RESULT, "Scanned Successfully");
+                        data.putExtra(ScanConstants.SCANNED_RESULT, "Cropped Successfully");
                         getActivity().setResult(Activity.RESULT_OK, data);
                         final Bitmap finalBitmap = bitmap;
 
